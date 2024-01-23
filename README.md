@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Realtime Messenger Clone Application
 
-## Getting Started
+A Realtime Messenger Clone Application! 🚀 This application provides a seamless and real-time chatting experience, utilizing cutting-edge technologies to make your conversations smooth and enjoyable.
 
-First, run the development server:
+
+
+## Features
+
+1. **Authentication and Authorization System** 🔐
+
+   - Fully implemented with Next Auth, supporting both Github and Google Social Logins. [Learn more about Next Auth](https://next-auth.js.org/)
+
+2. **Customizable Account with Profile Picture** 🖼️
+
+   - Personalize your account with a profile picture and public display name.
+
+3. **Group Chat and One to One Chat** 💬
+
+   - Engage in both group conversations and private one-on-one chats.
+
+4. **Realtime Messaging** ⚡
+
+   - Experience the thrill of real-time messaging and receive notifications when your message is seen.
+
+5. **Send and Receive Images** 📷
+
+   - Share images seamlessly within your conversations.
+
+6. **Online Status Indicator** 🟢
+
+   - Quickly identify which users are currently online.
+
+7. **Conversation Management** 🗑️
+   - Easily delete conversations.
+
+## Tech Stack
+
+- Typescript
+- Next.js 14
+- Next Auth
+- Next Cloudinary
+- React
+- Pusher
+- Prisma
+- MongoDB
+- Zustand
+- React Hook Form
+- Tailwind CSS
+
+## Environment Variables
+
+Configure your environment variables by Copying these Secrets, Or you can also edit the ```.env.example``` file
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+DATABASE_URL=
+NEXTAUTH_SECRET=
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
+PUSHER_APP_ID=
+NEXT_PUBLIC_PUSHER_APP_KEY=
+PUSHER_SECRET=
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commands to run Application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Installing Dependencies with npm
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# Installing Dependencies with pnpm
+pnpm install
+```
 
-## Learn More
+```bash
+# Installing Dependencies with yarn
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Installing Dependencies with bun
+bun install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Running Local Development Server
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Bundling a Production Build
+npm run build
 
-## Deploy on Vercel
+# Starting a Production Server
+npm run start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Same commands can be run using bun, yarn, or pnpm.
+
+## Deployment
+
+The application is deployed on [Vercel](INSERT_YOUR_DEPLOYED_URL_HERE).
+
+Feel free to explore, chat, and enjoy the Realtime Chat Application! If you have any questions or feedback, don't hesitate to [reach out](mailto:msmuhammadsaad78@gmail.com). Happy chatting! 🎉
+
