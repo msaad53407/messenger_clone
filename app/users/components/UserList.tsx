@@ -50,7 +50,7 @@ const UserList = ({ users, currentUser }: UserListProps) => {
 						</div>
 						<div
 							onClick={() => setIsOpen(true)}
-							className="cursor-pointer hover:opacity-75 transition">
+							className="cursor-pointer hover:opacity-75 transition lg:hidden block">
 							<Avatar user={currentUser} />
 						</div>
 					</div>
